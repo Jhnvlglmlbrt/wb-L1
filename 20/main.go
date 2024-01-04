@@ -20,6 +20,6 @@ func reverseWords(str string) string {
 
 func main() {
 	str := "snow dog sun"
-	fmt.Printf("    init string: %s\n", str)
+	fmt.Printf("init string: %s\n", str)
 	fmt.Printf("reversed string: %s\n", strings.Trim(reverseWords("snow dog sun"), " "))
 }

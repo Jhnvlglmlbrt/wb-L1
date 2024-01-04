@@ -46,7 +46,6 @@ func main() {
 
 	fmt.Println(c.value)
 
-	// 2.
 	// использование атомарной переменной вместо мьютексов
 	ac := &AtomicCounter{}
 	for i := 0; i < 10; i++ {
